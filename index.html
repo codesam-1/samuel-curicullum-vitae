@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Samuel Gautama Manik</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Samuel Gautama Manik</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#journey" onclick="toggleMenu()">Journey</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="Samuel Gautama Manik">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Samuel Gautama Manik</h1>
+            <p class="section_text_p2">Information Technology Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/in/samuel-gautama-manik-9a543b2a1'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/codesam-1'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Wanna Know Further</p>
+        <h1 class="title">About My Interest?</h1>
+        <div class="section-container">
+            <div class="section_pic-container2">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/cyber-security.png" alt="Cyber Security Icon" class="icon">
+                        <h3>Ethical Hacker</h3>
+                        <p>Eager to learn about this <br>Cyber Security</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/ui.png" alt="UI/UX Icon" class="icon">
+                        <h3>UI/UX Designer</h3>
+                        <p>Struggling to create <br>Digital Design</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lingering in Science major since teenager, I am so invested with robotics in past. However, the rapid-flow of technology brought me to Information Technology majority in Universitas Sumatera Utara, leading me to learn about softwares and its' security. I bring up my creativity in designing wallpapers and logos. 
+                    I am also an energetic person and loves to work in groups.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/rightarrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="journey">
+        <p class="section_text_p1">Take A Look At</p>
+        <h1 class="title">My Journey</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Formal Education</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/hat.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Universitas Sumatera Utara </h3>
+                                <p>2023 - Now</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/book.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SMA RK Bintang Timur Pematang Siantar</h3>
+                                <p>2020 - 2023</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/school2.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SMP Negeri 4 Tebing Tinggi</h3>
+                                <p>2017-2020</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./assets/school.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SD Swasta Budi Dharma Tebing Tinggi</h3>
+                                <p>2011-2017</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Achievements</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/abacus.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SEMPOA SIP COMPETITION 2013</h3>
+                                <p>Top 5</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/abacus.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SEMPOA SIP COMPETITION 2014</h3>
+                                <p>Top 10</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/dance.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Arts and Culture Fest Tebing Tinggi</h3>
+                                <p>3rd - Most Aunthentic Culture Dance</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/rightarrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Top-Up Web</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://codesam-1.github.io/'">Visit Site</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Arduino Radar</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/arduino-demo.mp4')">Watch Demo</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-3.png" alt="Project 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Photography</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.instagram.com/p/CcZ29RavOxo/?igsh=MWVueXhoZWczcXd5'">Visit Site</button>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <img src="./assets/rightarrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">For Business Inquiries</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:maniksamuel117107091@gmail.com">maniksamuel117107091@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/samuel-gautama-manik-9a543b2a1">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/whatsapp.png" alt="Whatsapp Icon" class="icon contact-icon">
+                <p><a href="https://wa.me/+6285668206081">Whatsapp</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    <p>Copyright &#169; 2024 Samuel Gautama Manik. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
